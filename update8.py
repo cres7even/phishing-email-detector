@@ -21,8 +21,7 @@ MODEL_NAME = "paraphrase-MiniLM-L3-v2"  # lightweight model
 device = "cpu"
 
 # CSV path for whitelist
-COMBINED_CSV = r"C:\Users\windows\Desktop\combined_110000 (1).csv"
-
+COMBINED_CSV = r"C:\Users\windows\Desktop\COMBINED_CSV = "combined_110000.csv""
 # Load whitelist
 if os.path.exists(COMBINED_CSV):
     df = pd.read_csv(COMBINED_CSV)
@@ -152,4 +151,5 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
     print(f"\n🌐 Launching Gradio app on port {port}...")
     demo.launch(server_name="0.0.0.0", server_port=port)
+
 
