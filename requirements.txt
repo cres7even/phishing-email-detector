@@ -1,7 +1,10 @@
-# requirements.txt
+gradio==4.44.0
 torch==2.5.1
-pandas==2.2.2
+transformers==4.42.4
+sentence-transformers==2.2.2
+huggingface-hub==0.24.6
 numpy==1.26.4
-scikit-learn==1.5.2
-gradio==4.43.0
-# add your other libs here
+pandas==2.2.2
+scikit-learn==1.5.0
+tqdm==4.66.4
+tokenizers==0.19.1
