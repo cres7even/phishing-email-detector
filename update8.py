@@ -149,5 +149,7 @@ with gr.Blocks(title="PHISHING EMAIL DETECTOR") as demo:
 
 # ---------- 6. Launch App ----------
 if __name__ == "__main__":
-    print("\n🌐 Launching Gradio app...")
-    demo.launch(share=True)
+    port = int(os.environ.get("PORT", 7860))
+    print(f"\n🌐 Launching Gradio app on port {port}...")
+    demo.launch(server_name="0.0.0.0", server_port=port)
+
