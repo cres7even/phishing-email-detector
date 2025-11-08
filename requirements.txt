@@ -1,6 +1,6 @@
-gradio==5.4.0
+gradio==4.43.0
 sentence-transformers==2.2.2
-torch
+huggingface-hub==0.20.3
+torch>=2.0.0
 pandas
 numpy
-scikit-learn
