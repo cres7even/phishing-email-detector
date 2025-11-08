@@ -1,6 +1,6 @@
 # Core dependencies
 gradio==4.44.0
-torch==2.3.0
+torch==2.5.1
 transformers==4.42.4
 sentence-transformers==2.2.2
 
@@ -10,6 +10,6 @@ huggingface-hub==0.24.6
 numpy==1.26.4
 pandas==2.2.2
 
-# Optional but helps compatibility
+# Compatibility and utils
 tqdm==4.66.4
 scikit-learn==1.5.0
